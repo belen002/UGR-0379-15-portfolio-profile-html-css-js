@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 100%;
+}
+.flex{
+    display: flex;
+}
+main{
+margin: 0px 35px;
+}
+.explanation p,.list ul li {
+    font-family: Roboto;
+    font-size:16px;
+    color: #863B9C;
+    margin-bottom:10px;
+}
+.pic{
+    margin: 60px 0px 0px;
+    border-color:#E0BCE7;
+    border-radius: 20px;
+    box-shadow:4px 4px 4px rgba(0, 0, 0, 0.158);
+    width:350px;
+    justify-self: center;
+}
+.pic img{
+    border-radius: 20px;
+    width:350px;
+    height:250px;
+}
+.heading{
+    font-family: Montserrat;
+    font-size: 20px;
+    color: #370E3E;
+    margin: 10px 0px 0px;
+    line-height:80px;
+}
+.list{
+    gap:20vw;
+}
+.list ul li {
+    list-style-type: none;
+}

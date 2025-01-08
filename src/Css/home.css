@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.img{
+    width: 100%;
+}
+body{
+    background-image: url("../img/Back-Ground/pic\ 1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 95vh;
+    display: grid;
+}
+.flex{
+    display: flex;
+}
+
+main{
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin:40vh 0px ;
+}
+main .intro{
+    font-size: 6vw;
+    padding-bottom:4vh;
+    letter-spacing: 8%;
+    line-height: 36px;
+}
+main .intro-2{
+    font-size: 4vw;
+}
