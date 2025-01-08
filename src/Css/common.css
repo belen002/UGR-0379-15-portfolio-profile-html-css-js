@@ -1,0 +1,72 @@
+header{
+    background-color: white;
+    box-shadow: 0px 4px 10px 0px #0000001b;
+    position: relative;
+    /* z-index: 10; */
+    height: 80px;
+}
+header .logo{
+    color:#370E3E;
+    text-shadow: 0px 4px 4px #E0BCE7;
+    padding-left: 6%;
+    padding-top: 3%;
+}
+/* header nav{
+margin: 30px;
+} */
+header nav ul {
+    list-style: none;
+    gap: 20px;
+    color: #370E3E;
+}
+header nav ul li a{
+    text-decoration: none;
+}
+footer{
+    background-color: #863B9C;
+    position: relative;
+    width: auto;
+    padding: 8px 0px;
+    bottom: 0;
+}
+.footer{
+    gap: 200px;
+    padding:10px 11px;
+}
+footer img{
+width: 20px;
+height:20px;
+}
+footer .socialmedia{
+    display:flex;
+    gap: 20px;
+}
+.copyright img{
+width: 14px;
+height: 14px;
+}
+.copyright p{
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 12px;
+    color: white;
+}
+.flex{
+    display: flex;
+}
+/* mobile landscape */
+
+/* tablet portrait */
+
+/* tablet Landscape */
+
+/* desktop */
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Regular.ttf') format('truetype');
+}
