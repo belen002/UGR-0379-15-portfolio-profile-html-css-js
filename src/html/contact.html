@@ -6,28 +6,18 @@
     <title>Contact</title>
     <link rel="stylesheet" href="../Css/contact.css">
     <link rel="stylesheet" href="../Css/common.css">
-
 </head>
 <body>
-    <header>
+<header>
         <div class="header flex">
             <h1 class="logo">Belen</h1>
-            <nav class="nav">
-                <ul class="nav flex">
-                    <li><a href="../../index.html">Home</a></li>
-                    <li><a href="./About.html">About</a></li>
-                    <li><a href="./Project.html">Project</a></li>
-                    <li><a href="./Resume.html">Resume</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <button class="hamburger">
+            <div class="menu-toggle" id="mobile-menu">
                 <div class="bar"></div>
-            </button>
-        </div>
-    </header>
-    <nav class="mobile-nav is-active">
-                <ul>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav class="nav">
+                <ul class="flex">
                     <li><a href="../../index.html">Home</a></li>
                     <li><a href="./About.html">About</a></li>
                     <li><a href="./Project.html">Project</a></li>
@@ -35,60 +25,70 @@
                     <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </nav>
-        <main>
-            <h2 >ALWAYS HERE TO HELP YOU</h2>
-            <p>ANY COMMENTS OR QUESTION </p>
+        </div>
+    </header> 
+    <main>
+        <div class="headings">
+            <h2>ALWAYS HERE TO HELP YOU</h2>
+            <p>ANY COMMENTS OR QUESTION</p>
             <p>ALWAYS AVAILABLE TO ANSWER</p>
-            <div>
-                <div class="form">
-                    <form>
-                        <label for="fname" >First Name</label><br />
-                        <input type="text" id="fname" name="fname" /><br />
-                    </form>
-                    <form>
-                        <label for="fname">Last Name</label><br />
-                        <input type="text" id="fname" name="fname" /><br />
-                    </form>
-                </div>
+        </div>
+        <div class="contact-container">
+            <div class="form">
+                <form id="contactForm" onsubmit="return validateForm()">
+                    <section><div>
+                        <label for="fname">First Name</label><br />
+                        <input class="input" type="text" id="fname" name="fname" /><br />
+                    </div>
 
-
-                <div>
                     <div>
-                        <form>
-                            <label for="fname">Message</label><br />
-                            <textarea name="message" rows="10" cols="30"></textarea>
-                        </form>
-                    </div>
-                    
-                    <div class="contact">
+                        <label for="lname">Last Name</label><br />
+                        <input class="input" type="text" id="lname" name="lname" /><br />
+                    </div></section>
 
-                        <div class="address">
-                            <div><img src="../img/contact/search-home.png" alt=""></div>
-                            <p>Ethiopia ,Addis Ababa<p>
+                    <section>
+                        <div>
+                            <label for="message">Message</label><br />
+                            <textarea class="textarea" name="message" id="message" ></textarea><br />
                         </div>
 
-                        <div class="email">
-                            <div><img src="../img/contact/email.png" alt=""></div>
-                            <p >belenberhanu15@gmail.com<p>
+                        <div>
+                        <input class="submit" type="submit" value="Submit"/>
                         </div>
+                    </section>
+                </form>
+            </div>
 
-                        <div class="phone">
-                            <div><img src="../img/contact/phone.png" alt=""></div>
-                            <p>+251989704680</p>
-                        </div>
-                    </div>
+            <div class="contact">
+                <div class="address">
+                    <img class="icon" src="../img/contact/search-home.png" alt="">
+                    <p>Ethiopia,<br>Addis Ababa</p>
                 </div>
-            </main>
-<footer>
+
+                <div class="email">
+                    <img class="icon" src="../img/contact/email.png" alt="">
+                    <p>belenberhanu15@gmail.com</p>
+                </div>
+
+                <div class="phone">
+                    <img class="icon" src="../img/contact/phone.png" alt="">
+                    <p>+251989704680</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
         <div class="footer flex">
             <div class="socialmedia">
-            <img src="../img/icon/linkedin.png" alt="">
-            <img src="../img/icon/insta.png" alt="">
-            <img src="../img/icon/git.png" alt="">
-            <img src="../img/icon/whatsapp.png" alt=""></div>
+                <img src="../img/icon/linkedin.png" alt="">
+                <img src="../img/icon/insta.png" alt="">
+                <img src="../img/icon/git.png" alt="">
+                <img src="../img/icon/whatsapp.png" alt="">
+            </div>
             <div class="copyright flex">
                 <img src="../img/icon/c .png" alt="">
-                <p>All rights reserved.</p></div>
+                <p>All rights reserved.</p>
+            </div>
         </div>
     </footer>
     <script src="../js/hamburger.js"></script>
