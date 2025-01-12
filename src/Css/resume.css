@@ -11,7 +11,7 @@ font-family: Roboto;
 .heading{
     color:#370E3E;
     text-align:center;
-    margin-top: 30px;
+    margin-top: 60px;
     font-size: 40px;
 }
 .subheading{
@@ -32,11 +32,12 @@ color:#863B9C;
 font-size:20px;
 font-weight:400;
 padding: 20px;
-}
-.button button{
+} 
+button{
     background-color: #9C27B0;
     border-color:#E0BCE7 ;
     border-radius: 20px;
+    justify-content: center;
     width: 200px;
     padding: 15px;
     margin:0px 120px 40px;
@@ -45,4 +46,4 @@ button a{
     color: white;
     font-size: large;
     text-decoration: none;
-}
+} 
